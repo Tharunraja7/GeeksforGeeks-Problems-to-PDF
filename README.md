@@ -3,7 +3,7 @@
 1. **🔗 Clone or Download the Repository**: If you have git installed, you can clone the repository using the following command in your terminal:
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/Tharunraja7/GeeksforGeeks-Problems-to-PDF.git
 ```
 
 Alternatively, you can download the repository directly from GitHub by clicking the `Code` button and then `Download ZIP`.
@@ -11,10 +11,9 @@ Alternatively, you can download the repository directly from GitHub by clicking 
 2. **📁 Navigate to the Repository Folder**: Change your current directory to the cloned repository's directory:
 
 ```bash
-cd yourrepository
+cd GeeksforGeeks-Problems-to-PDF
 ```
 
-Replace `yourrepository` with the name of your repository.
 
 3. **📦 Install Required Packages**: Install the required Python packages using pip:
 
@@ -33,6 +32,7 @@ python main.py
 ```
 
 2. **🔗 Enter the URL**: When prompted, paste the URL you copied from the GeeksforGeeks practice website.
+
    For Example : https://www.geeksforgeeks.org/explore?page=1&category=Arrays&company=Amazon&sortBy=submissions
 
 The script will then download the programming problems as a PDF.
@@ -47,6 +47,11 @@ The script will then download the programming problems as a PDF.
 !pip install -r requirements.txt
 ```
 
-4. In the next cells, you can copy and paste the code from your Python files.
+4. Then run it in a new cell
+     
+```python
+!python main.py
+```
+
 5. To run a cell, click on the play button to the left of the cell.
 

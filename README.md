@@ -1,6 +1,6 @@
 
 
-# 📚 GeeksforGeeks PDF Problem Downloader
+# 📚 GeeksforGeeks Problems To PDF Downloader
 
 This script allows you to download programming problems from GeeksforGeeks as a PDF. You just need to specify the filters on the GeeksforGeeks practice website, copy the URL, and paste it into the script.
 

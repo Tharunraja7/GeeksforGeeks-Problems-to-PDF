@@ -15,7 +15,7 @@ def generate_pdf(urls, pdf_name):  # Add pdf_name as a parameter
         data = json_data
         for key in path_to_key:
             data = data[key]
-        html_content += f"<div style='page-break-after: always; overflow:auto;'><h1 style='color: red; font-size: 30px;'>{i}. {data['problem_name']}</h1><p>{data['problem_question']}</p>}</div>"
+        html_content += f"<div style='page-break-after: always; overflow:auto;'><h1 style='color: red; font-size: 30px;'>{i}. {data['problem_name']}</h1><p>{data['problem_question']}</p></div>"
         print(f"{i} links scrapped out of {len(urls)}")
 
     HTML(string=html_content).write_pdf(f"{pdf_name}.pdf", stylesheets=[CSS(string="body { font-family: serif; }")])  # Use the pdf_name for the output file
